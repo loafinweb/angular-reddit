@@ -1,0 +1,33 @@
+.photo{
+  width: 100px;
+  height: 100px;
+  background:#aaa;
+  float: left; 
+  color: #fff;
+  vertical-align:middle;
+  text-align: center;
+  line-height:100px;
+  font-size: 30px; 
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.photoright{
+    float: left;
+    height: 100px;
+}
+.photoright h4{
+    margin: 0px;
+}
+.article{
+    clear: both;
+    margin-bottom: 10px;
+    width: 400px; height: 100px;
+    padding: 10px;
+}
+.article:hover{
+    border: mediumslateblue solid 1px ;
+    background: blanchedalmond;
+}
+.selected{
+ background: blanchedalmond;
+}

@@ -1,0 +1,13 @@
+<div class="article" (click)="selected(article)"  >
+  <div class="photo">
+    {{article.votes}}
+  </div>
+  <div class="photoright">
+    <h4>{{article.title}}</h4>
+    <a [href]="article.link" >{{article.link}}</a>
+    <div>     
+      <button (click)="voteUp()" >upvote</button> &nbsp;
+      <button (click)="voteDown()">downvote</button>
+    </div>
+  </div>
+</div>
